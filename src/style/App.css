@@ -1,0 +1,51 @@
+
+label {
+    font-weight: normal;
+    color: #000 !important;
+}
+
+input:not([type]), input[type=text]:not(.browser-default), textarea.materialize-textarea{
+    border:  1px solid #eee;
+    height: auto;
+    padding: 22px 8px 2px;
+    box-sizing: border-box;
+    line-height: 22px;
+}
+input:not([type]):focus:not([readonly]){
+    border-bottom: 1px solid #eee;
+    -webkit-box-shadow: 0 1px 0 0 #eee;
+    box-shadow: 0 1px 0 0 #eee;
+}
+
+.input-field>label{
+    left: 20px !important;
+    top: 15px;
+    font-size: 12px;
+}
+
+.input-field>label.active{
+    top: 18px;
+    left: 20px !important;
+} 
+
+.input-field>label{
+    transform: translateY(0px);
+}
+
+
+
+
+
+ 
+  
+
+  
+
+
+  
+
+
+
+
+
+
